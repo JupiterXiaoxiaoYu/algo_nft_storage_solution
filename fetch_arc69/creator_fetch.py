@@ -54,7 +54,7 @@ def write_meta_data_to_files():
         write_csv_file(data)
     except:
         print(data)
-        pandas.DataFrame(data).to_csv('C:/Users/Jupiter/Desktop/algoNFTs-master/output/tigerv1.csv')
+        pandas.DataFrame(data).to_csv('ipfs_data.csv')
 
 
 def write_csv_file(data):

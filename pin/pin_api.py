@@ -4,11 +4,11 @@ import requests
 url = 'https://api.estuary.tech/pinning/pins'
 
 body=json.dumps({
-    'name': 'Wushu Chi #0421',
-    'cid': 'bafybeifxw3cxljzphehftxlhriqzl6m3qkjq6ntsa5jgcwlyrftaocec7q',
+    'name': '', #replace with the file name 
+    'cid': '', #replace with the cid that you want to pin
 })
 headers = {
-  'Authorization':'Bearer ESTb382bc05-0673-4fe7-92c7-79332e557f4aARY',
+  'Authorization':'Bearer REPLACE_WITH_YOUR_API_KEY',
   
 }
 

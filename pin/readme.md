@@ -27,6 +27,4 @@ For other three providers, you need to first apply for an API key, and then use 
 
 You need to change the pin_api.py file to match the form of sending HTTP request accordingly and you may also need to use pandas to read your obtained ipfs_data file.
 
-After that, you could implement a loop for iterating the data file and get cid and file name, as well as sending HTTP request to repin your cid and data.
-
 If you need help, please contact: jupiterxiaoxiaoyu@gmail.com

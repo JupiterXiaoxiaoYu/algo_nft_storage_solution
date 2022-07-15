@@ -1,0 +1,13 @@
+testnet: False
+
+default_output_folder: "output"
+
+fetch_arc69:
+    public_key: "4UK5324YGP3UFLUK64E7ZPS6FQYKUC2ESF23TI5DZALTZVYD5PZG3J6BBY"
+    csv:
+        add_asset_id: true #adds column "asset_id" to csv
+        add_asset_name: true #adds column "asset_name" to csv
+        add_ipfs_url: true #adds column "ipfs_url" to csv
+        
+        base_attributes: ""  
+ 
